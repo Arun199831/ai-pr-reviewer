@@ -144,4 +144,4 @@ def code_quality_agent_node(state: PRReviewState) -> dict:
 
 
 def performance_agent_node(state: PRReviewState) -> dict:
-    return _call_agent("performance_agent", PERFORMANCE_PROMPT, state, "gpt-4o")
+    return _call_agent("performance_agent", PERFORMANCE_PROMPT, state, "gpt-4o")   
